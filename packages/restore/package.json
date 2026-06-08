@@ -1,0 +1,20 @@
+{
+  "name": "mongorestoreindexes",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CLI to restore MongoDB index definitions from a JSON file.",
+  "license": "MIT",
+  "bin": {
+    "mongorestoreindexes": "bin/cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "commander": "^11",
+    "mongo-indexes-core": "^0.1.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

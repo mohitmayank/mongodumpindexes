@@ -1,0 +1,17 @@
+{
+  "name": "mongo-indexes-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dump and restore MongoDB index definitions via CLI.",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10"
+  }
+}

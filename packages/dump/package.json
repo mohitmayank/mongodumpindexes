@@ -1,0 +1,20 @@
+{
+  "name": "mongodumpindexes",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CLI to dump MongoDB index definitions to a JSON file.",
+  "license": "MIT",
+  "bin": {
+    "mongodumpindexes": "bin/cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "commander": "^11",
+    "mongo-indexes-core": "^0.1.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
